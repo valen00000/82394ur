@@ -1,0 +1,98 @@
+body {
+    background: 0;
+    color: #afafaf;
+}
+
+.reservarButton {
+    background-color: #7e234f;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.3em;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.welcome .form-control, .contact .form-control {
+    max-width: none;
+    outline: none;
+    color: #000;
+    border: solid 1px hsla(0, 0%, 100%, 0.1607843137254902);
+    border-image: initial;
+    background: hsla(0, 0%, 95%, 0.76);
+    -webkit-box-shadow: 0 1px 0 rgb(0 0 0 / 13%) inset;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 13%) inset;
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.legend .type .available {
+    background-color: #ffd72e;
+    display: inline-block;
+    height: 18px;
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 20px;
+    border-radius: 8px;
+    color: #2a2a2a;
+    font-size: 16px;
+}
+
+
+.legend .type .not-available {
+    background-color: #d8d8d8;
+    display: inline-block;
+    height: 18px;
+    margin: 0 auto;
+    vertical-align: middle;
+    border-radius: 8px;
+    width: 20px;
+    color: #2a2a2a;
+    font-size: 16px;
+}
+
+
+.legend .type .selected {
+    background-color: #d04b4b;
+    display: inline-block;
+    height: 18px;
+    border-radius: 8px;
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 20px;
+    color: #2a2a2a;
+    font-size: 16px;
+}
+
+
+.available a.ui-state-default {
+    box-shadow: none;
+    /* border: black; */
+    color: #2d2d2d;
+    background-color: #ffd72e;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.disabled span.ui-state-default {
+    opacity: 1 !important;
+    background-color: #d8d8d8 !important;
+    box-shadow: none;
+    border-radius: 8px;
+    color: #2d2d2d;
+    border: 1px solid white;
+}
+
+a.ui-state-active {
+    background-color: #d04b4b !important;
+    opacity: .6;
+    color: white !important;
+    box-shadow: none !important;
+    border-radius: 8px;
+}
